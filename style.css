@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(nt\ bg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+.nav svg {
+    color: red;
+    fill: red;
+    position: relative;
+    z-index: 10;
+    box-shadow: 2px 2px 1px   whitesmoke;
+    animation: manans 2s steps(5) infinite;
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 174vh;
+    margin: auto;
+    padding: 25px 0px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    z-index: 10;
+    position: inherit;
+    margin-top: 200px;
+}
+
+.text span:nth-child(1) {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.text span:nth-child(2) {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 16px;
+}
+
+.text span:nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn {
+    display: flex;
+    gap: 7px;
+}
+.btn .ist {
+    padding: 0px 10px 3px 9px;
+    z-index: 10;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all ease-in 0.5s;
+}
+.btn .ist:hover{
+    transform: scale(1.1);
+}
+.btn .sec {
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    padding: 7px 80px 8px 20px;
+    font-size: 14px;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    transition: all ease-in 0.5s;
+}
+.btn .sec:hover{
+    transform: scale(1.1);
+}
+
+.btns {
+    display: flex;
+    z-index: 10;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 21px;
+    gap: 15px;
+}
+
+.btns .use {
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+    padding: 9px 110px 10px 4px;
+    cursor: pointer;
+}
+
+.btns .get {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 17px 10px 11px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease-in 0.5s;
+}
+
+.btns .get:hover{
+    transform: scale( 1.1);
+}
+
+.separate {
+    background-color: gray;
+    height: 5px;
+    width: 100%;
+}
+
+.sec-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+}
+
+.secimg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    top: 51px;
+    right: 0px;
+    width: 463px;
+    position: absolute;
+}
+
+.sec-1 .secimg {
+    position: relative;
+}
+
+.sec-1>div span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.sec-1>div :nth-child(1) {
+    font-size: 38px;
+}
+
+.sec-1>div :nth-child(2) {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.footer {
+    max-width: 300vh;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.txt h2 {
+    color: gray;
+    font-size: 22px;
+    padding: 23px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:  gray;
+    font-size: 30px;
+}
+
+.items li a {
+    color: gray;
+}
+
+.footer select{
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    padding: 8px 25px 8px 20px;
+    font-size: 14px;
+    color: white;
+    z-index: 10;
+    position: relative;
+    margin-left: 90px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: gray;
+    font-size: 15px;
+    margin-top: 70px;
+}
+.footer-2{
+    max-width: 300vh;
+    margin: auto;
+    padding: 10vh;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.item{
+    display: flex;
+    background-color: gray;
+    padding: 25px 20px 20px 30px;
+    justify-content: space-between;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+.footer-2 .two{
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 18px;
+}
+.item:hover{
+    background-color: lightsteelblue;
+}
+@keyframes manans {
+    form{
+        transform: scale(0.0);
+    }
+    
+to{
+    transform: scale(1.4);
+}
+
+}
